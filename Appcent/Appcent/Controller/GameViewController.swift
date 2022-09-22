@@ -19,9 +19,6 @@ class GameViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     @IBOutlet weak var gameTableView: UITableView!
-    @IBOutlet weak var searchBar: UISearchBar!
-    
-    var filteredData : [String]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -92,17 +89,4 @@ class GameViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
 
-}
-
-extension GameViewController : UISearchBarDelegate {
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
-        filteredData = []
-        
-        for word in data {
-            if word.
-                
-            }
-        }
-    }
 }

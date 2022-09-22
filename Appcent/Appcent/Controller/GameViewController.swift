@@ -26,7 +26,6 @@ class GameViewController: UIViewController, UITableViewDelegate, UITableViewData
 
         gameTableView.delegate = self
         gameTableView.dataSource = self
-        searchBar.delegate = self
         
         setURL()
     }

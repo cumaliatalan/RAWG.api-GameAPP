@@ -11,10 +11,10 @@ class GameDetailViewController: UIViewController {
     
     var gameID : Int = -1
     var gameDetailLink = "https://api.rawg.io/api/games/"
-    var APIkey = "?key=2b801cfb67b4418f9b8468dedcf8a344"
+    var APIkey = "?key=3f42e2312271420da153ba57f8bc65b3"
     
-    public var detailListViewModel : DetailListViewModel!
-    public var viewModelGameDetail : ViewModelGameDetail!
+    private var detailListViewModel : DetailListViewModel!
+    private var viewModelGameDetail : ViewModelGameDetail!
     
     @IBOutlet weak var gameDetailImageView: UIImageView!
     @IBOutlet weak var gameDetailName: UILabel!
@@ -53,12 +53,5 @@ class GameDetailViewController: UIViewController {
 
         }
         
-    }
-    
-    func setupUi() {
-        
-        self.gameDetailName.text = self.detailListViewModel.object.first!.description
-        print("hata burada mı")
-    }
-    
+    }    
 }

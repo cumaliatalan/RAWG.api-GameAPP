@@ -11,9 +11,9 @@ import UIKit
 
 class GameViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var firstLinkOfApiPage = "https://api.rawg.io/api/games?key=2b801cfb67b4418f9b8468dedcf8a344"
+    var firstLinkOfApiPage = "https://api.rawg.io/api/games?key=3f42e2312271420da153ba57f8bc65b3"
     var gameDetailLink = "https://api.rawg.io/api/games/"
-    var APIkey = "?key=2b801cfb67b4418f9b8468dedcf8a344"
+    var APIkey = "?key=3f42e2312271420da153ba57f8bc65b3"
     
     private var gameListViewModel : GameListViewModel!
     
